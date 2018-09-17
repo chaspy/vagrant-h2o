@@ -12,3 +12,5 @@ repo_gpgcheck=0
 enabled=1
 H2OREPO
 yum install -y h2o
+systemctl enable h2o
+systemctl start h2o
